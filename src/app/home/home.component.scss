@@ -1,0 +1,77 @@
+.herocontainer{
+    background: linear-gradient(rgba(black, .9), transparent), url("../../assets/jonathan-petersson-217672-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 53rem;
+    margin-top: -2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    // &__logo{
+    //     // position: absolute;
+    //     border-radius: 20px;
+    //     width: 80%;
+    //     text-align: center;
+    //     // background-color: red;
+    //     // margin-bottom: 70px;
+    //     margin-right: 30px;
+    //     &__image{
+    //         height: 50px;
+    //         width: 50px;
+    //         border-radius: 30px;
+    //         margin:15px 0 0 10px ;
+    //         box-shadow:  0 10px 15px rgba(black, 0.5);
+    //     }
+    // }
+    &__textcontainer{
+        color: whitesmoke;
+        text-align: center;
+        &--heading{
+            font-size: 5rem;
+            // letter-spacing: .3rem;
+            // text-transform: uppercase;
+            font-family: 'Lobster', cursive;
+        }
+        
+        &--subheading{
+            font-size: 2rem;
+        }
+    }
+}
+.logo{
+    border-radius: 150px;
+    // width: 80%;
+    text-align: center;
+    // background-color: red;
+    // margin-bottom: 70px;
+    // margin-right: 30px;
+}
+
+.image{
+    height: 180px;
+    
+    width: 180px;
+    border-radius: 90px;
+    margin:15px 0 0 10px ;
+    box-shadow:  0 10px 15px rgba(rgb(59, 59, 59), 0.5);
+}
+.contentcontainer{
+    text-align: center;
+    &--heading{
+        font-size: 3rem;
+        text-transform: capitalize;
+        letter-spacing: .2rem;
+    }
+    &--quote{
+        border-left: .4rem solid #eee;
+        padding-left: 1rem;
+        padding-top: .5rem;
+        padding-top: .5rem;
+        font-size: 1.8rem;
+        font-style: italic;
+    }
+    &--story{
+        margin-top: 2rem;
+    }
+}
